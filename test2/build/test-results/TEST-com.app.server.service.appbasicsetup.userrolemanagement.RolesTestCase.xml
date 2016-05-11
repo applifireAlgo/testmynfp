@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-11T11:00:09" hostname="913592064e86" time="0.544">
+<testsuite name="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-11T13:46:35" hostname="b5f7c279e908" time="0.378">
   <properties/>
-  <testcase name="test1Save" classname="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.224"/>
-  <testcase name="test2Update" classname="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.109"/>
-  <testcase name="test3FindById" classname="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.008"/>
-  <testcase name="test5NegativeTesting" classname="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.016"/>
-  <testcase name="test6Delete" classname="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.187"/>
-  <system-out><![CDATA[Wed May 11 11:00:09 UTC 2016|Log Manager Factory|Initialization Process started.....
-Wed May 11 11:00:09 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
-Wed May 11 11:00:09 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
-Wed May 11 11:00:09 UTC 2016|Alarm Manager|Loading Alarms ......
-Wed May 11 11:00:09 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
-Wed May 11 11:00:09 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
-Wed May 11 11:00:09 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP= A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:09 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
-Wed May 11 11:00:09 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
-Wed May 11 11:00:09 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=0/0 [0/0]  A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:09 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
-Wed May 11 11:00:09 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
-Wed May 11 11:00:09 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=0/0 [0/0]  A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:09 UTC 2016|Alarm Manager|Initialized Exception Lookup...
-Wed May 11 11:00:09 UTC 2016|Log Manager|Initialize Log Config File ......
-Wed May 11 11:00:09 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
-Wed May 11 11:00:09 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
-Wed May 11 11:00:09 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
-Wed May 11 11:00:09 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
-Wed May 11 11:00:09 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
-Wed May 11 11:00:09 UTC 2016|Log Manager|Loading Default Connector for Logging ......
-Wed May 11 11:00:09 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
-Wed May 11 11:00:09 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
-Wed May 11 11:00:09 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@56c09d47] ....
-Wed May 11 11:00:09 UTC 2016|Scheduler|Starting the Scheduler ......
-Wed May 11 11:00:09 UTC 2016|Scheduler|Adding [LMID=[3fb999d8-6cb5-41d3-9262-92a8ad59b579]] Delay=5 Time Unit=MINUTES
-Wed May 11 11:00:09 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
-Wed May 11 11:00:09 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
-Wed May 11 11:00:09 UTC 2016|Scheduler|Startup Completed..
-Wed May 11 11:00:09 UTC 2016|Log Manager|Initialization Process Complete ......
-Wed May 11 11:00:09 UTC 2016|Log Manager Factory|Log Manager READY! ID = 3fb999d8-6cb5-41d3-9262-92a8ad59b579
-[EL Fine]: sql: 2016-05-11 11:00:09.436--ClientSession(256263397)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppMenus_M (menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [0F0A0D93-E527-40C7-86BE-15CC35EF7569, IUtxYGZvzGZUalngH46imlvzgWeyUZL51Ajz6SItstLCgzYwiI, 1, true, 8, B3U0TM9AsoI1e2zMxE0aRmgmh5hbvP1zIYXQrchkgTJUnxRe5m, c1dBFvI300Rh4cIfuujsVAf2ZqcyrD8ToyAGcaC4LgZZcqcYTJ, true, true, C3o2XUYb4QgIWugl66zkfbGqzzM9zvUdngs4s7DHTWksXQFvVq, sxdvU5vFWl5yPj5dZj5LT7WQbI1NKHtrx6hbFDBfs3uzh5JrZV, MVspCTV7LeJf9Ic8DjWZeuzerIue1R53yEEp65BoHMLU68xMBN, c0o7txtJI5SAAtKg7KOFKY78bLzps6SpMpN19Ey3vNL4Et4iur, ZLC, 1, AAAAA, 2016-05-11 11:00:09.432, AAAAA, 2016-05-11 11:00:09.432, 1, 51000]
+  <testcase name="test1Save" classname="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.184"/>
+  <testcase name="test2Update" classname="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.072"/>
+  <testcase name="test3FindById" classname="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.009"/>
+  <testcase name="test5NegativeTesting" classname="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.018"/>
+  <testcase name="test6Delete" classname="com.app.server.service.appbasicsetup.userrolemanagement.RolesTestCase" time="0.095"/>
+  <system-out><![CDATA[Wed May 11 13:46:35 UTC 2016|Log Manager Factory|Initialization Process started.....
+Wed May 11 13:46:35 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
+Wed May 11 13:46:35 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
+Wed May 11 13:46:35 UTC 2016|Alarm Manager|Loading Alarms ......
+Wed May 11 13:46:35 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Wed May 11 13:46:35 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Wed May 11 13:46:35 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP= A.Map=[453]  E.Map EC/RC=[151/40] )
+Wed May 11 13:46:35 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Wed May 11 13:46:35 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Wed May 11 13:46:35 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/453 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=1/1 [79/0]  A.Map=[532]  E.Map EC/RC=[198/50] )
+Wed May 11 13:46:35 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
+Wed May 11 13:46:35 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Wed May 11 13:46:35 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/453 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=1/1 [79/0]  A.Map=[532]  E.Map EC/RC=[198/50] )
+Wed May 11 13:46:35 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Wed May 11 13:46:35 UTC 2016|Log Manager|Initialize Log Config File ......
+Wed May 11 13:46:35 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Wed May 11 13:46:35 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Wed May 11 13:46:35 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Wed May 11 13:46:35 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Wed May 11 13:46:35 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Wed May 11 13:46:35 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Wed May 11 13:46:35 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Wed May 11 13:46:35 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Wed May 11 13:46:35 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@7c034f4d] ....
+Wed May 11 13:46:35 UTC 2016|Scheduler|Starting the Scheduler ......
+Wed May 11 13:46:35 UTC 2016|Scheduler|Adding [LMID=[4e49276b-f4c9-4e28-aed3-c4eee11de73a]] Delay=5 Time Unit=MINUTES
+Wed May 11 13:46:35 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Wed May 11 13:46:35 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Wed May 11 13:46:35 UTC 2016|Scheduler|Startup Completed..
+Wed May 11 13:46:35 UTC 2016|Log Manager|Initialization Process Complete ......
+Wed May 11 13:46:35 UTC 2016|Log Manager Factory|Log Manager READY! ID = 4e49276b-f4c9-4e28-aed3-c4eee11de73a
+[EL Fine]: sql: 2016-05-11 13:46:35.999--ClientSession(970400635)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppMenus_M (menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [6CC49246-C110-436A-9E4C-15377F1B1D1A, IUtxYGZvzGZUalngH46imlvzgWeyUZL51Ajz6SItstLCgzYwiI, 1, true, 8, B3U0TM9AsoI1e2zMxE0aRmgmh5hbvP1zIYXQrchkgTJUnxRe5m, c1dBFvI300Rh4cIfuujsVAf2ZqcyrD8ToyAGcaC4LgZZcqcYTJ, true, true, C3o2XUYb4QgIWugl66zkfbGqzzM9zvUdngs4s7DHTWksXQFvVq, sxdvU5vFWl5yPj5dZj5LT7WQbI1NKHtrx6hbFDBfs3uzh5JrZV, MVspCTV7LeJf9Ic8DjWZeuzerIue1R53yEEp65BoHMLU68xMBN, c0o7txtJI5SAAtKg7KOFKY78bLzps6SpMpN19Ey3vNL4Et4iur, ZLC, 1, AAAAA, 2016-05-11 13:46:35.996, AAAAA, 2016-05-11 13:46:35.996, 1, 51000]
 Setting logged in user info for ADD
 Setting logged in user info for ADD
-[EL Fine]: sql: 2016-05-11 11:00:09.516--ClientSession(1824474918)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Roles_T (roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [C06467E1-B8BF-4A15-8CC2-80869A9C1842, SsCXs1fxDJjZaeMF6HBnf9cu2vWsGnSaDChS8ZldBJ7PGnfJws, ISBxTigoSDCjI7JCpELDCwD8R3m29ZQcoSqRRT4nkGbqx1LoRU, ZfLDVQWl5Rz6cT4BM3r1Qn2kgJ2TjhVD4RlLCAqcjj7PTzv2vH, WCmCv2KmsowZfAsCKyhrVEm5RzX0reatG0954XxHyQWJqdoBVJ, 1, AAAAA, 2016-05-11 11:00:09.432, AAAAA, 2016-05-11 11:00:09.432, 1, 51000]
-[EL Fine]: sql: 2016-05-11 11:00:09.517--ClientSession(1824474918)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_RoleMenuBridge_TP (roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [56E8A64F-3C6A-4930-9F18-6AF718481291, true, true, true, 0F0A0D93-E527-40C7-86BE-15CC35EF7569, 1, AAAAA, 2016-05-11 11:00:09.432, AAAAA, 2016-05-11 11:00:09.432, 1, 51000, C06467E1-B8BF-4A15-8CC2-80869A9C1842]
-[EL Fine]: sql: 2016-05-11 11:00:09.643--ClientSession(255224189)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE ((activeStatus = ?) AND (roleId = ?))
-	bind => [1, C06467E1-B8BF-4A15-8CC2-80869A9C1842]
-[EL Fine]: sql: 2016-05-11 11:00:09.644--ClientSession(255224189)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
-	bind => [C06467E1-B8BF-4A15-8CC2-80869A9C1842]
+[EL Fine]: sql: 2016-05-11 13:46:36.049--ClientSession(2064780270)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Roles_T (roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [7E0EC63C-6628-4D6C-A481-01866910EA9F, SsCXs1fxDJjZaeMF6HBnf9cu2vWsGnSaDChS8ZldBJ7PGnfJws, ISBxTigoSDCjI7JCpELDCwD8R3m29ZQcoSqRRT4nkGbqx1LoRU, ZfLDVQWl5Rz6cT4BM3r1Qn2kgJ2TjhVD4RlLCAqcjj7PTzv2vH, WCmCv2KmsowZfAsCKyhrVEm5RzX0reatG0954XxHyQWJqdoBVJ, 1, AAAAA, 2016-05-11 13:46:35.996, AAAAA, 2016-05-11 13:46:35.996, 1, 51000]
+[EL Fine]: sql: 2016-05-11 13:46:36.05--ClientSession(2064780270)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_RoleMenuBridge_TP (roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [0660515A-B4AA-4795-9E83-58AEA772CD98, true, true, true, 6CC49246-C110-436A-9E4C-15377F1B1D1A, 1, AAAAA, 2016-05-11 13:46:35.996, AAAAA, 2016-05-11 13:46:35.996, 1, 51000, 7E0EC63C-6628-4D6C-A481-01866910EA9F]
+[EL Fine]: sql: 2016-05-11 13:46:36.169--ClientSession(1906788510)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE ((activeStatus = ?) AND (roleId = ?))
+	bind => [1, 7E0EC63C-6628-4D6C-A481-01866910EA9F]
+[EL Fine]: sql: 2016-05-11 13:46:36.17--ClientSession(1906788510)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind => [7E0EC63C-6628-4D6C-A481-01866910EA9F]
 Setting logged in user info for UPDATE
 Setting logged in user info for UPDATE
-[EL Fine]: sql: 2016-05-11 11:00:09.649--ClientSession(1681289020)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE (roleId = ?)
-	bind => [C06467E1-B8BF-4A15-8CC2-80869A9C1842]
-[EL Fine]: sql: 2016-05-11 11:00:09.65--ClientSession(1681289020)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
-	bind => [C06467E1-B8BF-4A15-8CC2-80869A9C1842]
-[EL Fine]: sql: 2016-05-11 11:00:09.652--ClientSession(1681289020)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--UPDATE ast_Roles_T SET RoleDescription = ?, roleHelp = ?, RoleIcon = ?, RoleName = ?, versionId = ? WHERE ((roleId = ?) AND (versionId = ?))
-	bind => [1QzT4SfhjIq9U4f4K2B0WKwZs1Een2BvHcnOEzmcm38WTDTjBy, x3ZkEadPW7x7z2aem3AFzkGEWRfBudfPExZFguvXRvrRPHw7GM, 0c0Mf02WJKcqieJVAcq6xrzCqpUkiMaCOTjSGT8JV9MrO6p60d, mDTNjmrtDa1lrn5lZqINd6KOm29xrnFCNaStW2tKa9QQWwEL6k, 2, C06467E1-B8BF-4A15-8CC2-80869A9C1842, 1]
-[EL Fine]: sql: 2016-05-11 11:00:09.752--ClientSession(2103553788)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE ((activeStatus = ?) AND (roleId = ?))
-	bind => [1, C06467E1-B8BF-4A15-8CC2-80869A9C1842]
-[EL Fine]: sql: 2016-05-11 11:00:09.753--ClientSession(2103553788)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
-	bind => [C06467E1-B8BF-4A15-8CC2-80869A9C1842]
-[EL Fine]: sql: 2016-05-11 11:00:09.777--ClientSession(1353783524)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE (roleId = ?)
-	bind => [C06467E1-B8BF-4A15-8CC2-80869A9C1842]
-[EL Fine]: sql: 2016-05-11 11:00:09.777--ClientSession(1353783524)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
-	bind => [C06467E1-B8BF-4A15-8CC2-80869A9C1842]
-[EL Fine]: sql: 2016-05-11 11:00:09.779--ClientSession(1353783524)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_RoleMenuBridge_TP WHERE ((roleMenuMapId = ?) AND (versionId = ?))
-	bind => [56E8A64F-3C6A-4930-9F18-6AF718481291, 1]
-[EL Fine]: sql: 2016-05-11 11:00:09.78--ClientSession(1353783524)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Roles_T WHERE ((roleId = ?) AND (versionId = ?))
-	bind => [C06467E1-B8BF-4A15-8CC2-80869A9C1842, 2]
-[EL Fine]: sql: 2016-05-11 11:00:09.858--ClientSession(1185253394)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE (menuId = ?)
-	bind => [0F0A0D93-E527-40C7-86BE-15CC35EF7569]
-[EL Fine]: sql: 2016-05-11 11:00:09.86--ClientSession(1185253394)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppMenus_M WHERE ((menuId = ?) AND (versionId = ?))
-	bind => [0F0A0D93-E527-40C7-86BE-15CC35EF7569, 1]
+[EL Fine]: sql: 2016-05-11 13:46:36.173--ClientSession(927040871)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE (roleId = ?)
+	bind => [7E0EC63C-6628-4D6C-A481-01866910EA9F]
+[EL Fine]: sql: 2016-05-11 13:46:36.174--ClientSession(927040871)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind => [7E0EC63C-6628-4D6C-A481-01866910EA9F]
+[EL Fine]: sql: 2016-05-11 13:46:36.176--ClientSession(927040871)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--UPDATE ast_Roles_T SET RoleDescription = ?, roleHelp = ?, RoleIcon = ?, RoleName = ?, versionId = ? WHERE ((roleId = ?) AND (versionId = ?))
+	bind => [1QzT4SfhjIq9U4f4K2B0WKwZs1Een2BvHcnOEzmcm38WTDTjBy, x3ZkEadPW7x7z2aem3AFzkGEWRfBudfPExZFguvXRvrRPHw7GM, 0c0Mf02WJKcqieJVAcq6xrzCqpUkiMaCOTjSGT8JV9MrO6p60d, mDTNjmrtDa1lrn5lZqINd6KOm29xrnFCNaStW2tKa9QQWwEL6k, 2, 7E0EC63C-6628-4D6C-A481-01866910EA9F, 1]
+[EL Fine]: sql: 2016-05-11 13:46:36.241--ClientSession(957147868)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE ((activeStatus = ?) AND (roleId = ?))
+	bind => [1, 7E0EC63C-6628-4D6C-A481-01866910EA9F]
+[EL Fine]: sql: 2016-05-11 13:46:36.242--ClientSession(957147868)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind => [7E0EC63C-6628-4D6C-A481-01866910EA9F]
+[EL Fine]: sql: 2016-05-11 13:46:36.268--ClientSession(2123923452)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT roleId, RoleDescription, roleHelp, RoleIcon, RoleName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Roles_T WHERE (roleId = ?)
+	bind => [7E0EC63C-6628-4D6C-A481-01866910EA9F]
+[EL Fine]: sql: 2016-05-11 13:46:36.269--ClientSession(2123923452)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT roleMenuMapId, isExecute, isRead, isWrite, menuId, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode, roleId FROM ast_RoleMenuBridge_TP WHERE (roleId = ?)
+	bind => [7E0EC63C-6628-4D6C-A481-01866910EA9F]
+[EL Fine]: sql: 2016-05-11 13:46:36.271--ClientSession(2123923452)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_RoleMenuBridge_TP WHERE ((roleMenuMapId = ?) AND (versionId = ?))
+	bind => [0660515A-B4AA-4795-9E83-58AEA772CD98, 1]
+[EL Fine]: sql: 2016-05-11 13:46:36.272--ClientSession(2123923452)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Roles_T WHERE ((roleId = ?) AND (versionId = ?))
+	bind => [7E0EC63C-6628-4D6C-A481-01866910EA9F, 2]
+[EL Fine]: sql: 2016-05-11 13:46:36.313--ClientSession(534633680)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE (menuId = ?)
+	bind => [6CC49246-C110-436A-9E4C-15377F1B1D1A]
+[EL Fine]: sql: 2016-05-11 13:46:36.315--ClientSession(534633680)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppMenus_M WHERE ((menuId = ?) AND (versionId = ?))
+	bind => [6CC49246-C110-436A-9E4C-15377F1B1D1A, 1]
 ]]></system-out>
   <system-err><![CDATA[java.lang.NoSuchFieldException: RoleName
 	at java.lang.Class.getDeclaredField(Class.java:1961)
@@ -106,8 +106,7 @@ Setting logged in user info for UPDATE
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -116,8 +115,7 @@ Setting logged in user info for UPDATE
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor106.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -162,8 +160,7 @@ com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exc
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -172,8 +169,7 @@ com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exc
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor106.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -215,8 +211,7 @@ java.lang.NoSuchFieldException: RoleDescription
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -225,8 +220,7 @@ java.lang.NoSuchFieldException: RoleDescription
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor106.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -271,8 +265,7 @@ com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exc
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -281,8 +274,7 @@ com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exc
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor106.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -327,8 +319,7 @@ com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exc
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -337,8 +328,7 @@ com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exc
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor106.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -383,8 +373,7 @@ com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exc
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
@@ -393,8 +382,7 @@ com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exc
 	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.GeneratedMethodAccessor106.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:606)
 	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)

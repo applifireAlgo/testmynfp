@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.app.server.service.organization.locationmanagement.TimezoneTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-11T11:00:04" hostname="913592064e86" time="0.249">
+<testsuite name="com.app.server.service.organization.locationmanagement.TimezoneTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-11T13:46:29" hostname="b5f7c279e908" time="0.27">
   <properties/>
-  <testcase name="test1Save" classname="com.app.server.service.organization.locationmanagement.TimezoneTestCase" time="0.081"/>
-  <testcase name="test2Update" classname="com.app.server.service.organization.locationmanagement.TimezoneTestCase" time="0.055"/>
-  <testcase name="test3FindById" classname="com.app.server.service.organization.locationmanagement.TimezoneTestCase" time="0.01"/>
+  <testcase name="test1Save" classname="com.app.server.service.organization.locationmanagement.TimezoneTestCase" time="0.089"/>
+  <testcase name="test2Update" classname="com.app.server.service.organization.locationmanagement.TimezoneTestCase" time="0.088"/>
+  <testcase name="test3FindById" classname="com.app.server.service.organization.locationmanagement.TimezoneTestCase" time="0.007"/>
   <testcase name="test5NegativeTesting" classname="com.app.server.service.organization.locationmanagement.TimezoneTestCase" time="0.031"/>
-  <testcase name="test6Delete" classname="com.app.server.service.organization.locationmanagement.TimezoneTestCase" time="0.071"/>
-  <system-out><![CDATA[Wed May 11 11:00:04 UTC 2016|Log Manager Factory|Initialization Process started.....
-Wed May 11 11:00:04 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
-Wed May 11 11:00:04 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
-Wed May 11 11:00:04 UTC 2016|Alarm Manager|Loading Alarms ......
-Wed May 11 11:00:04 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
-Wed May 11 11:00:04 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
-Wed May 11 11:00:04 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP= A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:04 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
-Wed May 11 11:00:04 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
-Wed May 11 11:00:04 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=0/0 [0/0]  A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:04 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
-Wed May 11 11:00:04 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
-Wed May 11 11:00:04 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=0/0 [0/0]  A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:04 UTC 2016|Alarm Manager|Initialized Exception Lookup...
-Wed May 11 11:00:04 UTC 2016|Log Manager|Initialize Log Config File ......
-Wed May 11 11:00:04 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
-Wed May 11 11:00:04 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
-Wed May 11 11:00:04 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
-Wed May 11 11:00:04 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
-Wed May 11 11:00:04 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
-Wed May 11 11:00:04 UTC 2016|Log Manager|Loading Default Connector for Logging ......
-Wed May 11 11:00:04 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
-Wed May 11 11:00:04 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
-Wed May 11 11:00:04 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@64636886] ....
-Wed May 11 11:00:04 UTC 2016|Scheduler|Starting the Scheduler ......
-Wed May 11 11:00:04 UTC 2016|Scheduler|Adding [LMID=[3fb999d8-6cb5-41d3-9262-92a8ad59b579]] Delay=5 Time Unit=MINUTES
-Wed May 11 11:00:04 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
-Wed May 11 11:00:04 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
-Wed May 11 11:00:04 UTC 2016|Scheduler|Startup Completed..
-Wed May 11 11:00:04 UTC 2016|Log Manager|Initialization Process Complete ......
-Wed May 11 11:00:04 UTC 2016|Log Manager Factory|Log Manager READY! ID = 3fb999d8-6cb5-41d3-9262-92a8ad59b579
+  <testcase name="test6Delete" classname="com.app.server.service.organization.locationmanagement.TimezoneTestCase" time="0.052"/>
+  <system-out><![CDATA[Wed May 11 13:46:29 UTC 2016|Log Manager Factory|Initialization Process started.....
+Wed May 11 13:46:29 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
+Wed May 11 13:46:29 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
+Wed May 11 13:46:29 UTC 2016|Alarm Manager|Loading Alarms ......
+Wed May 11 13:46:29 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Wed May 11 13:46:29 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Wed May 11 13:46:29 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP= A.Map=[453]  E.Map EC/RC=[151/40] )
+Wed May 11 13:46:29 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Wed May 11 13:46:29 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Wed May 11 13:46:29 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/453 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=1/1 [79/0]  A.Map=[532]  E.Map EC/RC=[198/50] )
+Wed May 11 13:46:29 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
+Wed May 11 13:46:29 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Wed May 11 13:46:29 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/453 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=1/1 [79/0]  A.Map=[532]  E.Map EC/RC=[198/50] )
+Wed May 11 13:46:29 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Wed May 11 13:46:29 UTC 2016|Log Manager|Initialize Log Config File ......
+Wed May 11 13:46:29 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Wed May 11 13:46:29 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Wed May 11 13:46:29 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Wed May 11 13:46:29 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Wed May 11 13:46:29 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Wed May 11 13:46:29 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Wed May 11 13:46:29 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Wed May 11 13:46:29 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Wed May 11 13:46:29 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@78ace417] ....
+Wed May 11 13:46:29 UTC 2016|Scheduler|Starting the Scheduler ......
+Wed May 11 13:46:29 UTC 2016|Scheduler|Adding [LMID=[4e49276b-f4c9-4e28-aed3-c4eee11de73a]] Delay=5 Time Unit=MINUTES
+Wed May 11 13:46:29 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Wed May 11 13:46:29 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Wed May 11 13:46:29 UTC 2016|Scheduler|Startup Completed..
+Wed May 11 13:46:29 UTC 2016|Log Manager|Initialization Process Complete ......
+Wed May 11 13:46:29 UTC 2016|Log Manager Factory|Log Manager READY! ID = 4e49276b-f4c9-4e28-aed3-c4eee11de73a
 Setting logged in user info for ADD
-Wed May 11 11:00:04 UTC 2016|Unknown Alarm = ORGLM312100100 Alarm Split = ORG-LM-3-1-2-100-100
-[EL Fine]: sql: 2016-05-11 11:00:04.243--ClientSession(893289728)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Timezone_M (timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [4B0686F7-1DD6-47C0-B70D-02A7CAB29E66, NVFHOBe4qwxVJC4U7eeodhNtOVIWrlDuA7sMZxB7tCZIVAX6of, QhInx474UHaDVrB0iOMqJI9nCLXKXUAwp3OzPl4olqIqlpMGPL, iVut8d9VKCY4332ETf756w1IdzZkLTEz1PbmarcoNMLftwVMQ3, NJDwvdqulpumjT1We1RWUVj5iCu3NH2dtdGeK24fXr8V0WUAdg, 3, 1, AAAAA, 2016-05-11 11:00:04.239, AAAAA, 2016-05-11 11:00:04.239, 1, 51000]
-[EL Fine]: sql: 2016-05-11 11:00:04.31--ClientSession(1610027106)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE ((activeStatus = ?) AND (timeZoneId = ?))
-	bind => [1, 4B0686F7-1DD6-47C0-B70D-02A7CAB29E66]
+Wed May 11 13:46:29 UTC 2016|Unknown Alarm = ORGLM312100100 Alarm Split = ORG-LM-3-1-2-100-100
+[EL Fine]: sql: 2016-05-11 13:46:29.955--ClientSession(947654357)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Timezone_M (timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [6B8F9487-883C-4110-9F8D-7EF8DD54D03E, NVFHOBe4qwxVJC4U7eeodhNtOVIWrlDuA7sMZxB7tCZIVAX6of, QhInx474UHaDVrB0iOMqJI9nCLXKXUAwp3OzPl4olqIqlpMGPL, iVut8d9VKCY4332ETf756w1IdzZkLTEz1PbmarcoNMLftwVMQ3, NJDwvdqulpumjT1We1RWUVj5iCu3NH2dtdGeK24fXr8V0WUAdg, 3, 1, AAAAA, 2016-05-11 13:46:29.952, AAAAA, 2016-05-11 13:46:29.952, 1, 51000]
+[EL Fine]: sql: 2016-05-11 13:46:30.029--ClientSession(568806838)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE ((activeStatus = ?) AND (timeZoneId = ?))
+	bind => [1, 6B8F9487-883C-4110-9F8D-7EF8DD54D03E]
 Setting logged in user info for UPDATE
-[EL Fine]: sql: 2016-05-11 11:00:04.317--ClientSession(495153214)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE (timeZoneId = ?)
-	bind => [4B0686F7-1DD6-47C0-B70D-02A7CAB29E66]
-[EL Fine]: sql: 2016-05-11 11:00:04.32--ClientSession(495153214)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--UPDATE ast_Timezone_M SET cities = ?, country = ?, gmtLabel = ?, timeZoneLabel = ?, versionId = ? WHERE ((timeZoneId = ?) AND (versionId = ?))
-	bind => [ksQkViJbkxIGwI882HCS57dyWZcEyHJxG7xNVvG6fOOvYYHZpJ, MCSemmKNa4faM7nlZPyimstqnUncL4DcGpzsPIqYbXaNPCXSjU, MFxlr473wIm17wPuxFd3KzdciHLPd87HAwGnBbSTycsupSMfr2, EWX39ANNfVf0micC0k7YFLNOOTrCKEqncnAi1aqd31N6RZ8Y7s, 2, 4B0686F7-1DD6-47C0-B70D-02A7CAB29E66, 1]
-[EL Fine]: sql: 2016-05-11 11:00:04.365--ClientSession(897630318)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE ((activeStatus = ?) AND (timeZoneId = ?))
-	bind => [1, 4B0686F7-1DD6-47C0-B70D-02A7CAB29E66]
-[EL Fine]: sql: 2016-05-11 11:00:04.405--ClientSession(399575689)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE (timeZoneId = ?)
-	bind => [4B0686F7-1DD6-47C0-B70D-02A7CAB29E66]
-[EL Fine]: sql: 2016-05-11 11:00:04.406--ClientSession(399575689)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Timezone_M WHERE ((timeZoneId = ?) AND (versionId = ?))
-	bind => [4B0686F7-1DD6-47C0-B70D-02A7CAB29E66, 2]
+[EL Fine]: sql: 2016-05-11 13:46:30.034--ClientSession(2055352242)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE (timeZoneId = ?)
+	bind => [6B8F9487-883C-4110-9F8D-7EF8DD54D03E]
+[EL Fine]: sql: 2016-05-11 13:46:30.036--ClientSession(2055352242)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--UPDATE ast_Timezone_M SET cities = ?, country = ?, gmtLabel = ?, timeZoneLabel = ?, versionId = ? WHERE ((timeZoneId = ?) AND (versionId = ?))
+	bind => [ksQkViJbkxIGwI882HCS57dyWZcEyHJxG7xNVvG6fOOvYYHZpJ, MCSemmKNa4faM7nlZPyimstqnUncL4DcGpzsPIqYbXaNPCXSjU, MFxlr473wIm17wPuxFd3KzdciHLPd87HAwGnBbSTycsupSMfr2, EWX39ANNfVf0micC0k7YFLNOOTrCKEqncnAi1aqd31N6RZ8Y7s, 2, 6B8F9487-883C-4110-9F8D-7EF8DD54D03E, 1]
+[EL Fine]: sql: 2016-05-11 13:46:30.118--ClientSession(2059994813)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE ((activeStatus = ?) AND (timeZoneId = ?))
+	bind => [1, 6B8F9487-883C-4110-9F8D-7EF8DD54D03E]
+[EL Fine]: sql: 2016-05-11 13:46:30.157--ClientSession(684739252)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT timeZoneId, cities, country, gmtLabel, timeZoneLabel, utcdifference, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Timezone_M WHERE (timeZoneId = ?)
+	bind => [6B8F9487-883C-4110-9F8D-7EF8DD54D03E]
+[EL Fine]: sql: 2016-05-11 13:46:30.159--ClientSession(684739252)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Timezone_M WHERE ((timeZoneId = ?) AND (versionId = ?))
+	bind => [6B8F9487-883C-4110-9F8D-7EF8DD54D03E, 2]
 ]]></system-out>
   <system-err><![CDATA[com.app.shared.organization.locationmanagement.Timezone.utcdifference may not be null
 com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exception.:Reason = Not Available!

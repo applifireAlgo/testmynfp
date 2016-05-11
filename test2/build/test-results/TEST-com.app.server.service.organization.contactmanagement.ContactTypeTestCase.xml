@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-11T10:59:59" hostname="913592064e86" time="0.357">
+<testsuite name="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-11T13:46:25" hostname="b5f7c279e908" time="0.38">
   <properties/>
-  <testcase name="test1Save" classname="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" time="0.111"/>
-  <testcase name="test2Update" classname="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" time="0.077"/>
-  <testcase name="test3FindById" classname="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" time="0.008"/>
-  <testcase name="test5NegativeTesting" classname="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" time="0.019"/>
-  <testcase name="test6Delete" classname="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" time="0.14"/>
-  <system-out><![CDATA[Wed May 11 10:59:59 UTC 2016|Log Manager Factory|Initialization Process started.....
-Wed May 11 10:59:59 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
-Wed May 11 10:59:59 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
-Wed May 11 10:59:59 UTC 2016|Alarm Manager|Loading Alarms ......
-Wed May 11 10:59:59 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
-Wed May 11 10:59:59 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
-Wed May 11 10:59:59 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP= A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 10:59:59 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
-Wed May 11 10:59:59 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
-Wed May 11 10:59:59 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=0/0 [0/0]  A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 10:59:59 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
-Wed May 11 10:59:59 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
-Wed May 11 10:59:59 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=0/0 [0/0]  A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 10:59:59 UTC 2016|Alarm Manager|Initialized Exception Lookup...
-Wed May 11 10:59:59 UTC 2016|Log Manager|Initialize Log Config File ......
-Wed May 11 10:59:59 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
-Wed May 11 10:59:59 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
-Wed May 11 10:59:59 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
-Wed May 11 10:59:59 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
-Wed May 11 10:59:59 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
-Wed May 11 10:59:59 UTC 2016|Log Manager|Loading Default Connector for Logging ......
-Wed May 11 10:59:59 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
-Wed May 11 10:59:59 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
-Wed May 11 10:59:59 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@1180a9b0] ....
-Wed May 11 10:59:59 UTC 2016|Scheduler|Starting the Scheduler ......
-Wed May 11 10:59:59 UTC 2016|Scheduler|Adding [LMID=[3fb999d8-6cb5-41d3-9262-92a8ad59b579]] Delay=5 Time Unit=MINUTES
-Wed May 11 10:59:59 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
-Wed May 11 10:59:59 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
-Wed May 11 10:59:59 UTC 2016|Scheduler|Startup Completed..
-Wed May 11 10:59:59 UTC 2016|Log Manager|Initialization Process Complete ......
-Wed May 11 10:59:59 UTC 2016|Log Manager Factory|Log Manager READY! ID = 3fb999d8-6cb5-41d3-9262-92a8ad59b579
+  <testcase name="test1Save" classname="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" time="0.135"/>
+  <testcase name="test2Update" classname="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" time="0.067"/>
+  <testcase name="test3FindById" classname="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" time="0.009"/>
+  <testcase name="test5NegativeTesting" classname="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" time="0.022"/>
+  <testcase name="test6Delete" classname="com.app.server.service.organization.contactmanagement.ContactTypeTestCase" time="0.146"/>
+  <system-out><![CDATA[Wed May 11 13:46:25 UTC 2016|Log Manager Factory|Initialization Process started.....
+Wed May 11 13:46:25 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
+Wed May 11 13:46:25 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
+Wed May 11 13:46:25 UTC 2016|Alarm Manager|Loading Alarms ......
+Wed May 11 13:46:25 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Wed May 11 13:46:25 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Wed May 11 13:46:25 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP= A.Map=[453]  E.Map EC/RC=[151/40] )
+Wed May 11 13:46:25 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Wed May 11 13:46:25 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Wed May 11 13:46:25 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/453 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=1/1 [79/0]  A.Map=[532]  E.Map EC/RC=[198/50] )
+Wed May 11 13:46:25 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
+Wed May 11 13:46:25 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Wed May 11 13:46:25 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/453 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=1/1 [79/0]  A.Map=[532]  E.Map EC/RC=[198/50] )
+Wed May 11 13:46:25 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Wed May 11 13:46:25 UTC 2016|Log Manager|Initialize Log Config File ......
+Wed May 11 13:46:25 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Wed May 11 13:46:25 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Wed May 11 13:46:25 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Wed May 11 13:46:25 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Wed May 11 13:46:25 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Wed May 11 13:46:25 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Wed May 11 13:46:25 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Wed May 11 13:46:25 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Wed May 11 13:46:25 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@1daea59f] ....
+Wed May 11 13:46:25 UTC 2016|Scheduler|Starting the Scheduler ......
+Wed May 11 13:46:25 UTC 2016|Scheduler|Adding [LMID=[4e49276b-f4c9-4e28-aed3-c4eee11de73a]] Delay=5 Time Unit=MINUTES
+Wed May 11 13:46:25 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Wed May 11 13:46:25 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Wed May 11 13:46:25 UTC 2016|Scheduler|Startup Completed..
+Wed May 11 13:46:25 UTC 2016|Log Manager|Initialization Process Complete ......
+Wed May 11 13:46:25 UTC 2016|Log Manager Factory|Log Manager READY! ID = 4e49276b-f4c9-4e28-aed3-c4eee11de73a
 Setting logged in user info for ADD
-[EL Fine]: sql: 2016-05-11 10:59:59.934--ClientSession(1798777399)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_ContactType_M (contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [E31DE1F0-CE27-4857-BD44-C87E01805185, yGqbeDd45zwV84cZ7sjnlS7YmqdGnxIbDhuFkI81tvzXeUrFNP, 0IgIrfJYmeZcebKGYfX1mmjMJLf7ZvYpsyXh8k5q8xS51wEbpU, Fv1rIGoc4kZdehHxO5OFckObtFxCsPc1vNq0M9vrScaYXOU6bl, 1, AAAAA, 2016-05-11 10:59:59.927, AAAAA, 2016-05-11 10:59:59.927, 1, 51000]
-[EL Fine]: sql: 2016-05-11 11:00:00.012--ClientSession(1679831)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE ((activeStatus = ?) AND (contactTypeId = ?))
-	bind => [1, E31DE1F0-CE27-4857-BD44-C87E01805185]
+[EL Fine]: sql: 2016-05-11 13:46:25.586--ClientSession(1913912394)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_ContactType_M (contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [F5F8B114-7A86-4048-9101-F329BD97D29B, yGqbeDd45zwV84cZ7sjnlS7YmqdGnxIbDhuFkI81tvzXeUrFNP, 0IgIrfJYmeZcebKGYfX1mmjMJLf7ZvYpsyXh8k5q8xS51wEbpU, Fv1rIGoc4kZdehHxO5OFckObtFxCsPc1vNq0M9vrScaYXOU6bl, 1, AAAAA, 2016-05-11 13:46:25.578, AAAAA, 2016-05-11 13:46:25.578, 1, 51000]
+[EL Fine]: sql: 2016-05-11 13:46:25.688--ClientSession(882401610)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE ((activeStatus = ?) AND (contactTypeId = ?))
+	bind => [1, F5F8B114-7A86-4048-9101-F329BD97D29B]
 Setting logged in user info for UPDATE
-[EL Fine]: sql: 2016-05-11 11:00:00.021--ClientSession(60804457)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE (contactTypeId = ?)
-	bind => [E31DE1F0-CE27-4857-BD44-C87E01805185]
-[EL Fine]: sql: 2016-05-11 11:00:00.028--ClientSession(60804457)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--UPDATE ast_ContactType_M SET contactType = ?, contactTypeDesc = ?, contactTypeIcon = ?, versionId = ? WHERE ((contactTypeId = ?) AND (versionId = ?))
-	bind => [6DPmoK0jbu9CzdQ9DezwQrJzbgXBJkSzPYul3W1gVN4gNsXX3m, 2idmZSMvLUCYmEFqMm4Yj6kLvL07T2uNZRdFh1kFbmxjeEqed2, lDErILu4tZJnncDqOarzavalH8GCc8SuFhCJzP8mgWlgMsOXdL, 2, E31DE1F0-CE27-4857-BD44-C87E01805185, 1]
-[EL Fine]: sql: 2016-05-11 11:00:00.089--ClientSession(69693805)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE ((activeStatus = ?) AND (contactTypeId = ?))
-	bind => [1, E31DE1F0-CE27-4857-BD44-C87E01805185]
-[EL Fine]: sql: 2016-05-11 11:00:00.118--ClientSession(1079651649)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE (contactTypeId = ?)
-	bind => [E31DE1F0-CE27-4857-BD44-C87E01805185]
-[EL Fine]: sql: 2016-05-11 11:00:00.119--ClientSession(1079651649)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_ContactType_M WHERE ((contactTypeId = ?) AND (versionId = ?))
-	bind => [E31DE1F0-CE27-4857-BD44-C87E01805185, 2]
+[EL Fine]: sql: 2016-05-11 13:46:25.699--ClientSession(5112714)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE (contactTypeId = ?)
+	bind => [F5F8B114-7A86-4048-9101-F329BD97D29B]
+[EL Fine]: sql: 2016-05-11 13:46:25.701--ClientSession(5112714)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--UPDATE ast_ContactType_M SET contactType = ?, contactTypeDesc = ?, contactTypeIcon = ?, versionId = ? WHERE ((contactTypeId = ?) AND (versionId = ?))
+	bind => [6DPmoK0jbu9CzdQ9DezwQrJzbgXBJkSzPYul3W1gVN4gNsXX3m, 2idmZSMvLUCYmEFqMm4Yj6kLvL07T2uNZRdFh1kFbmxjeEqed2, lDErILu4tZJnncDqOarzavalH8GCc8SuFhCJzP8mgWlgMsOXdL, 2, F5F8B114-7A86-4048-9101-F329BD97D29B, 1]
+[EL Fine]: sql: 2016-05-11 13:46:25.757--ClientSession(1340923880)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE ((activeStatus = ?) AND (contactTypeId = ?))
+	bind => [1, F5F8B114-7A86-4048-9101-F329BD97D29B]
+[EL Fine]: sql: 2016-05-11 13:46:25.787--ClientSession(1138876404)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT contactTypeId, contactType, contactTypeDesc, contactTypeIcon, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_ContactType_M WHERE (contactTypeId = ?)
+	bind => [F5F8B114-7A86-4048-9101-F329BD97D29B]
+[EL Fine]: sql: 2016-05-11 13:46:25.789--ClientSession(1138876404)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_ContactType_M WHERE ((contactTypeId = ?) AND (versionId = ?))
+	bind => [F5F8B114-7A86-4048-9101-F329BD97D29B, 2]
 ]]></system-out>
   <system-err><![CDATA[com.app.shared.organization.contactmanagement.ContactType.contactType may not be null
 com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exception.:Reason = Not Available!

@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.app.server.service.organization.locationmanagement.StateTestCase" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-05-11T11:00:04" hostname="913592064e86" time="0.676">
+<testsuite name="com.app.server.service.organization.locationmanagement.StateTestCase" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-05-11T13:46:32" hostname="b5f7c279e908" time="0.53">
   <properties/>
-  <testcase name="test1Save" classname="com.app.server.service.organization.locationmanagement.StateTestCase" time="0.096"/>
-  <testcase name="test2Update" classname="com.app.server.service.organization.locationmanagement.StateTestCase" time="0.066"/>
+  <testcase name="test1Save" classname="com.app.server.service.organization.locationmanagement.StateTestCase" time="0.175"/>
+  <testcase name="test2Update" classname="com.app.server.service.organization.locationmanagement.StateTestCase" time="0.055"/>
   <testcase name="test3FindById" classname="com.app.server.service.organization.locationmanagement.StateTestCase" time="0.007"/>
   <testcase name="test3findBycountryId" classname="com.app.server.service.organization.locationmanagement.StateTestCase" time="0.008"/>
-  <testcase name="test5NegativeTesting" classname="com.app.server.service.organization.locationmanagement.StateTestCase" time="0.085"/>
-  <testcase name="test6Delete" classname="com.app.server.service.organization.locationmanagement.StateTestCase" time="0.412"/>
-  <system-out><![CDATA[Wed May 11 11:00:04 UTC 2016|Log Manager Factory|Initialization Process started.....
-Wed May 11 11:00:04 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
-Wed May 11 11:00:04 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
-Wed May 11 11:00:04 UTC 2016|Alarm Manager|Loading Alarms ......
-Wed May 11 11:00:04 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
-Wed May 11 11:00:04 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
-Wed May 11 11:00:04 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP= A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:04 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
-Wed May 11 11:00:04 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
-Wed May 11 11:00:04 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=0/0 [0/0]  A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:04 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
-Wed May 11 11:00:04 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
-Wed May 11 11:00:04 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=0/0 [0/0]  A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:04 UTC 2016|Alarm Manager|Initialized Exception Lookup...
-Wed May 11 11:00:04 UTC 2016|Log Manager|Initialize Log Config File ......
-Wed May 11 11:00:04 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
-Wed May 11 11:00:04 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
-Wed May 11 11:00:04 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
-Wed May 11 11:00:04 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
-Wed May 11 11:00:04 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
-Wed May 11 11:00:04 UTC 2016|Log Manager|Loading Default Connector for Logging ......
-Wed May 11 11:00:04 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
-Wed May 11 11:00:04 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
-Wed May 11 11:00:04 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@7fedeca9] ....
-Wed May 11 11:00:04 UTC 2016|Scheduler|Starting the Scheduler ......
-Wed May 11 11:00:04 UTC 2016|Scheduler|Adding [LMID=[3fb999d8-6cb5-41d3-9262-92a8ad59b579]] Delay=5 Time Unit=MINUTES
-Wed May 11 11:00:04 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
-Wed May 11 11:00:04 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
-Wed May 11 11:00:04 UTC 2016|Scheduler|Startup Completed..
-Wed May 11 11:00:04 UTC 2016|Log Manager|Initialization Process Complete ......
-Wed May 11 11:00:04 UTC 2016|Log Manager Factory|Log Manager READY! ID = 3fb999d8-6cb5-41d3-9262-92a8ad59b579
-Wed May 11 11:00:04 UTC 2016|Unknown Alarm = ORGLM312100100 Alarm Split = ORG-LM-3-1-2-100-100
-[EL Fine]: sql: 2016-05-11 11:00:04.887--ClientSession(916536464)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Country_M (countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [54E2FCFF-C174-4FE4-BA51-FBED6F40584F, f18c4OsbCqqJLcYr2S5xkLbMziEntZql, 4, 1, eRF, 7w2, hskvyfwD4DbwOXUOUZqdK5O6rGEAXvCTgFJGUiCUjhKyvGW9RD, ZY8miRPsziIJnzqLEysnB66myLdSLHrGjNB5d2x8GPeMp8C0s1, H5o, c8COs0gFoAg3D2fq8YysmTL8Q6hV0NzjlLV0mlvkbtoIWCnhk6, qSrzYbrhGO8XGzP9ds16bOmAAaxjyWG0, 867, 1, AAAAA, 2016-05-11 11:00:04.88, AAAAA, 2016-05-11 11:00:04.88, 1, 51000]
+  <testcase name="test5NegativeTesting" classname="com.app.server.service.organization.locationmanagement.StateTestCase" time="0.074"/>
+  <testcase name="test6Delete" classname="com.app.server.service.organization.locationmanagement.StateTestCase" time="0.21"/>
+  <system-out><![CDATA[Wed May 11 13:46:32 UTC 2016|Log Manager Factory|Initialization Process started.....
+Wed May 11 13:46:32 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
+Wed May 11 13:46:32 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
+Wed May 11 13:46:32 UTC 2016|Alarm Manager|Loading Alarms ......
+Wed May 11 13:46:32 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Wed May 11 13:46:32 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Wed May 11 13:46:32 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP= A.Map=[453]  E.Map EC/RC=[151/40] )
+Wed May 11 13:46:32 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Wed May 11 13:46:32 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Wed May 11 13:46:32 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/453 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=1/1 [79/0]  A.Map=[532]  E.Map EC/RC=[198/50] )
+Wed May 11 13:46:32 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
+Wed May 11 13:46:32 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Wed May 11 13:46:32 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/453 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=1/1 [79/0]  A.Map=[532]  E.Map EC/RC=[198/50] )
+Wed May 11 13:46:32 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Wed May 11 13:46:32 UTC 2016|Log Manager|Initialize Log Config File ......
+Wed May 11 13:46:32 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Wed May 11 13:46:32 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Wed May 11 13:46:32 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Wed May 11 13:46:32 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Wed May 11 13:46:32 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Wed May 11 13:46:32 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Wed May 11 13:46:32 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Wed May 11 13:46:32 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Wed May 11 13:46:32 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@45a5c504] ....
+Wed May 11 13:46:32 UTC 2016|Scheduler|Starting the Scheduler ......
+Wed May 11 13:46:32 UTC 2016|Scheduler|Adding [LMID=[4e49276b-f4c9-4e28-aed3-c4eee11de73a]] Delay=5 Time Unit=MINUTES
+Wed May 11 13:46:32 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Wed May 11 13:46:32 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Wed May 11 13:46:32 UTC 2016|Scheduler|Startup Completed..
+Wed May 11 13:46:32 UTC 2016|Log Manager|Initialization Process Complete ......
+Wed May 11 13:46:32 UTC 2016|Log Manager Factory|Log Manager READY! ID = 4e49276b-f4c9-4e28-aed3-c4eee11de73a
+Wed May 11 13:46:32 UTC 2016|Unknown Alarm = ORGLM312100100 Alarm Split = ORG-LM-3-1-2-100-100
+[EL Fine]: sql: 2016-05-11 13:46:32.08--ClientSession(1899796050)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_Country_M (countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [264F6DAD-FD23-4CB4-BDB4-2BDF263894FF, f18c4OsbCqqJLcYr2S5xkLbMziEntZql, 4, 1, eRF, 7w2, hskvyfwD4DbwOXUOUZqdK5O6rGEAXvCTgFJGUiCUjhKyvGW9RD, ZY8miRPsziIJnzqLEysnB66myLdSLHrGjNB5d2x8GPeMp8C0s1, H5o, c8COs0gFoAg3D2fq8YysmTL8Q6hV0NzjlLV0mlvkbtoIWCnhk6, qSrzYbrhGO8XGzP9ds16bOmAAaxjyWG0, 867, 1, AAAAA, 2016-05-11 13:46:32.076, AAAAA, 2016-05-11 13:46:32.076, 1, 51000]
 Setting logged in user info for ADD
-Wed May 11 11:00:04 UTC 2016|Unknown Alarm = ORGLM312100100 Alarm Split = ORG-LM-3-1-2-100-100
-[EL Fine]: sql: 2016-05-11 11:00:04.92--ClientSession(1336999833)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_State_M (stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [04F82974-613A-46BE-BFB4-0CAA8BF21F66, 54E2FCFF-C174-4FE4-BA51-FBED6F40584F, Vm8S4o3YrC3HohfFAA16Z9vwsqaFEVKh8SHyRZaSfjD93WG6IB, 5, 7, 1, LcCeprQ9DrKGwcZiYUSqutY9ybs4JNf0, ADGjJ85G2A8Xn69IXz7DbId7SjiSvzAZ, gewkZfzqxzTjT9BZk0nDRZQrhkNgRbaqMxqCbX90fOotmNSTo2, u0vlPCYxCv7oCSTQH7RcALASKnOimbO2ZOrPgdApFdOzx042Co, mFEZp9L1MSyqaezlbczcIrm6mVTROKGa6II3BELBIYGge6Ru4F, 1, AAAAA, 2016-05-11 11:00:04.914, AAAAA, 2016-05-11 11:00:04.914, 1, 51000]
-[EL Fine]: sql: 2016-05-11 11:00:04.956--ClientSession(921970133)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_State_M WHERE ((activeStatus = ?) AND (stateId = ?))
-	bind => [1, 04F82974-613A-46BE-BFB4-0CAA8BF21F66]
+Wed May 11 13:46:32 UTC 2016|Unknown Alarm = ORGLM312100100 Alarm Split = ORG-LM-3-1-2-100-100
+[EL Fine]: sql: 2016-05-11 13:46:32.186--ClientSession(987332531)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_State_M (stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [281E9654-3037-421B-8B5A-7D44AEB41F14, 264F6DAD-FD23-4CB4-BDB4-2BDF263894FF, Vm8S4o3YrC3HohfFAA16Z9vwsqaFEVKh8SHyRZaSfjD93WG6IB, 5, 7, 1, LcCeprQ9DrKGwcZiYUSqutY9ybs4JNf0, ADGjJ85G2A8Xn69IXz7DbId7SjiSvzAZ, gewkZfzqxzTjT9BZk0nDRZQrhkNgRbaqMxqCbX90fOotmNSTo2, u0vlPCYxCv7oCSTQH7RcALASKnOimbO2ZOrPgdApFdOzx042Co, mFEZp9L1MSyqaezlbczcIrm6mVTROKGa6II3BELBIYGge6Ru4F, 1, AAAAA, 2016-05-11 13:46:32.181, AAAAA, 2016-05-11 13:46:32.181, 1, 51000]
+[EL Fine]: sql: 2016-05-11 13:46:32.233--ClientSession(129009497)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_State_M WHERE ((activeStatus = ?) AND (stateId = ?))
+	bind => [1, 281E9654-3037-421B-8B5A-7D44AEB41F14]
 Setting logged in user info for UPDATE
-[EL Fine]: sql: 2016-05-11 11:00:04.965--ClientSession(1250663280)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_State_M WHERE (stateId = ?)
-	bind => [04F82974-613A-46BE-BFB4-0CAA8BF21F66]
-[EL Fine]: sql: 2016-05-11 11:00:04.967--ClientSession(1250663280)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--UPDATE ast_State_M SET stateCapital = ?, stateCapitalLatitude = ?, stateCapitalLongitude = ?, stateCodeChar2 = ?, stateCodeChar3 = ?, stateDescription = ?, stateFlag = ?, stateName = ?, versionId = ? WHERE ((stateId = ?) AND (versionId = ?))
-	bind => [fjE1kVl19IIyuSQYBgfBs7DY5ABOCdWkUgDdHDzjqvDdasj9JD, 3, 2, ThUHkNX26UIK1FtEMKfWpby2OnF5CZlU, I7ihaFIvCxeyLj4C3hUJKS1yn7SFxe8s, xCw3vpGQyBeXbRCRcSZOWuWA7yRJvBEVBw1kc8m2X1XSsueJt9, 5I4S0PHdbtVBO0Zhuds2s5Rlnbjz27qmtDQ9upg9lOjlUgTxlb, Nx10CbvbROjzlOMAjS4yQhS3UaDv4w2NMXoYHkM6jLFz2mYG4r, 2, 04F82974-613A-46BE-BFB4-0CAA8BF21F66, 1]
-[EL Fine]: sql: 2016-05-11 11:00:05.02--ClientSession(1801628919)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_State_M WHERE ((activeStatus = ?) AND (stateId = ?))
-	bind => [1, 04F82974-613A-46BE-BFB4-0CAA8BF21F66]
-[EL Fine]: sql: 2016-05-11 11:00:05.027--ClientSession(791859698)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_State_M WHERE ((activeStatus = ?) AND (countryId = ?))
-	bind => [1, 54E2FCFF-C174-4FE4-BA51-FBED6F40584F]
-[EL Fine]: sql: 2016-05-11 11:00:05.127--ClientSession(1327628096)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_State_M WHERE (stateId = ?)
-	bind => [04F82974-613A-46BE-BFB4-0CAA8BF21F66]
-[EL Fine]: sql: 2016-05-11 11:00:05.129--ClientSession(1327628096)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_State_M WHERE ((stateId = ?) AND (versionId = ?))
-	bind => [04F82974-613A-46BE-BFB4-0CAA8BF21F66, 2]
-[EL Fine]: sql: 2016-05-11 11:00:05.339--ClientSession(2039908836)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE (countryId = ?)
-	bind => [54E2FCFF-C174-4FE4-BA51-FBED6F40584F]
-[EL Fine]: sql: 2016-05-11 11:00:05.341--ClientSession(2039908836)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Country_M WHERE ((countryId = ?) AND (versionId = ?))
-	bind => [54E2FCFF-C174-4FE4-BA51-FBED6F40584F, 1]
+[EL Fine]: sql: 2016-05-11 13:46:32.239--ClientSession(1981193412)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_State_M WHERE (stateId = ?)
+	bind => [281E9654-3037-421B-8B5A-7D44AEB41F14]
+[EL Fine]: sql: 2016-05-11 13:46:32.241--ClientSession(1981193412)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--UPDATE ast_State_M SET stateCapital = ?, stateCapitalLatitude = ?, stateCapitalLongitude = ?, stateCodeChar2 = ?, stateCodeChar3 = ?, stateDescription = ?, stateFlag = ?, stateName = ?, versionId = ? WHERE ((stateId = ?) AND (versionId = ?))
+	bind => [fjE1kVl19IIyuSQYBgfBs7DY5ABOCdWkUgDdHDzjqvDdasj9JD, 3, 2, ThUHkNX26UIK1FtEMKfWpby2OnF5CZlU, I7ihaFIvCxeyLj4C3hUJKS1yn7SFxe8s, xCw3vpGQyBeXbRCRcSZOWuWA7yRJvBEVBw1kc8m2X1XSsueJt9, 5I4S0PHdbtVBO0Zhuds2s5Rlnbjz27qmtDQ9upg9lOjlUgTxlb, Nx10CbvbROjzlOMAjS4yQhS3UaDv4w2NMXoYHkM6jLFz2mYG4r, 2, 281E9654-3037-421B-8B5A-7D44AEB41F14, 1]
+[EL Fine]: sql: 2016-05-11 13:46:32.288--ClientSession(311302811)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_State_M WHERE ((activeStatus = ?) AND (stateId = ?))
+	bind => [1, 281E9654-3037-421B-8B5A-7D44AEB41F14]
+[EL Fine]: sql: 2016-05-11 13:46:32.295--ClientSession(1881017134)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_State_M WHERE ((activeStatus = ?) AND (countryId = ?))
+	bind => [1, 264F6DAD-FD23-4CB4-BDB4-2BDF263894FF]
+[EL Fine]: sql: 2016-05-11 13:46:32.381--ClientSession(1980975816)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT stateId, countryId, stateCapital, stateCapitalLatitude, stateCapitalLongitude, stateCode, stateCodeChar2, stateCodeChar3, stateDescription, stateFlag, stateName, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_State_M WHERE (stateId = ?)
+	bind => [281E9654-3037-421B-8B5A-7D44AEB41F14]
+[EL Fine]: sql: 2016-05-11 13:46:32.382--ClientSession(1980975816)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_State_M WHERE ((stateId = ?) AND (versionId = ?))
+	bind => [281E9654-3037-421B-8B5A-7D44AEB41F14, 2]
+[EL Fine]: sql: 2016-05-11 13:46:32.494--ClientSession(1918067060)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT countryId, capital, capitalLatitude, capitalLongitude, countryCode1, countryCode2, countryFlag, countryName, currencyCode, currencyName, currencySymbol, isoNumeric, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_Country_M WHERE (countryId = ?)
+	bind => [264F6DAD-FD23-4CB4-BDB4-2BDF263894FF]
+[EL Fine]: sql: 2016-05-11 13:46:32.496--ClientSession(1918067060)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_Country_M WHERE ((countryId = ?) AND (versionId = ?))
+	bind => [264F6DAD-FD23-4CB4-BDB4-2BDF263894FF, 1]
 ]]></system-out>
   <system-err><![CDATA[com.app.shared.organization.locationmanagement.State.stateName may not be null
 com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exception.:Reason = Not Available!

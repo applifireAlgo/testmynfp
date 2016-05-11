@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-11T11:00:09" hostname="913592064e86" time="0.368">
+<testsuite name="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-05-11T13:46:35" hostname="b5f7c279e908" time="0.337">
   <properties/>
-  <testcase name="test1Save" classname="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" time="0.056"/>
-  <testcase name="test2Update" classname="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" time="0.102"/>
-  <testcase name="test3FindById" classname="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" time="0.008"/>
-  <testcase name="test5NegativeTesting" classname="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" time="0.088"/>
-  <testcase name="test6Delete" classname="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" time="0.114"/>
-  <system-out><![CDATA[Wed May 11 11:00:09 UTC 2016|Log Manager Factory|Initialization Process started.....
-Wed May 11 11:00:09 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
-Wed May 11 11:00:09 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
-Wed May 11 11:00:09 UTC 2016|Alarm Manager|Loading Alarms ......
-Wed May 11 11:00:09 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
-Wed May 11 11:00:09 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
-Wed May 11 11:00:09 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP= A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:09 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
-Wed May 11 11:00:09 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
-Wed May 11 11:00:09 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=0/0 [0/0]  A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:09 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
-Wed May 11 11:00:09 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
-Wed May 11 11:00:09 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=0/0 [0/0]  A.Map=[453]  E.Map EC/RC=[151/40] )
-Wed May 11 11:00:09 UTC 2016|Alarm Manager|Initialized Exception Lookup...
-Wed May 11 11:00:09 UTC 2016|Log Manager|Initialize Log Config File ......
-Wed May 11 11:00:09 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
-Wed May 11 11:00:09 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
-Wed May 11 11:00:09 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
-Wed May 11 11:00:09 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
-Wed May 11 11:00:09 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
-Wed May 11 11:00:09 UTC 2016|Log Manager|Loading Default Connector for Logging ......
-Wed May 11 11:00:09 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
-Wed May 11 11:00:09 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
-Wed May 11 11:00:09 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@31415815] ....
-Wed May 11 11:00:09 UTC 2016|Scheduler|Starting the Scheduler ......
-Wed May 11 11:00:09 UTC 2016|Scheduler|Adding [LMID=[3fb999d8-6cb5-41d3-9262-92a8ad59b579]] Delay=5 Time Unit=MINUTES
-Wed May 11 11:00:09 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
-Wed May 11 11:00:09 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
-Wed May 11 11:00:09 UTC 2016|Scheduler|Startup Completed..
-Wed May 11 11:00:09 UTC 2016|Log Manager|Initialization Process Complete ......
-Wed May 11 11:00:09 UTC 2016|Log Manager Factory|Log Manager READY! ID = 3fb999d8-6cb5-41d3-9262-92a8ad59b579
+  <testcase name="test1Save" classname="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" time="0.092"/>
+  <testcase name="test2Update" classname="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" time="0.089"/>
+  <testcase name="test3FindById" classname="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" time="0.012"/>
+  <testcase name="test5NegativeTesting" classname="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" time="0.072"/>
+  <testcase name="test6Delete" classname="com.app.server.service.appbasicsetup.userrolemanagement.AppMenusTestCase" time="0.072"/>
+  <system-out><![CDATA[Wed May 11 13:46:35 UTC 2016|Log Manager Factory|Initialization Process started.....
+Wed May 11 13:46:35 UTC 2016|Log Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
+Wed May 11 13:46:35 UTC 2016|Alarm Manager|Initialized with Path = [/home/applifire/workspace/test2/src/main/webapp/WEB-INF/conf]
+Wed May 11 13:46:35 UTC 2016|Alarm Manager|Loading Alarms ......
+Wed May 11 13:46:35 UTC 2016|Alarm XML Parser|FWA|XML Parsing Complete........ 
+Wed May 11 13:46:35 UTC 2016|Alarm File Manager|FWA|Alarm File Status.. [ApplicationFrameworkAlarms.xml]|Version=15|Status=Done 
+Wed May 11 13:46:35 UTC 2016|Alarm File Manager|FWA|Alarm Stats = ( BC/AL=4/374 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP= A.Map=[453]  E.Map EC/RC=[151/40] )
+Wed May 11 13:46:35 UTC 2016|Alarm XML Parser|APP|XML Parsing Complete........ 
+Wed May 11 13:46:35 UTC 2016|Alarm File Manager|APP|Alarm File Status.. [ApplicationAlarms.xml]|Version=1|Status=Done 
+Wed May 11 13:46:35 UTC 2016|Alarm File Manager|APP|Alarm Stats = ( BC/AL=5/453 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=1/1 [79/0]  A.Map=[532]  E.Map EC/RC=[198/50] )
+Wed May 11 13:46:35 UTC 2016|ApplicationAlarmContext| <><><><><> Create App Alarms ....  <><><><><> 
+Wed May 11 13:46:35 UTC 2016|ApplicationAlarmContext|Alarms are generated ONLY in Development Mode.. 
+Wed May 11 13:46:35 UTC 2016|Alarm Manager|APP|Alarm Stats = ( BC/AL=5/453 SYS=4/9 [374/0]  TPL=0/0 [0/0]  APP=1/1 [79/0]  A.Map=[532]  E.Map EC/RC=[198/50] )
+Wed May 11 13:46:35 UTC 2016|Alarm Manager|Initialized Exception Lookup...
+Wed May 11 13:46:35 UTC 2016|Log Manager|Initialize Log Config File ......
+Wed May 11 13:46:35 UTC 2016|Pluggable Connectors|Adding Connectors : StandardOutputConnector isEnabled=true isDefault=false isFallBack=true
+Wed May 11 13:46:35 UTC 2016|Pluggable Connectors|Adding Connectors : StandardFileConnector isEnabled=true isDefault=false isFallBack=false
+Wed May 11 13:46:35 UTC 2016|Pluggable Connectors|Adding Connectors : Sprinkler isEnabled=true isDefault=true isFallBack=false
+Wed May 11 13:46:35 UTC 2016|Pluggable Connectors|Default Connector Name : com.spartan.logger.core.LogMessenger
+Wed May 11 13:46:35 UTC 2016|Log Config Parser|Connector Least Log Level =[4]  FallBack Log Level =[3]
+Wed May 11 13:46:35 UTC 2016|Log Manager|Loading Default Connector for Logging ......
+Wed May 11 13:46:35 UTC 2016|Log Manager|Loading class .. com.spartan.logger.core.LogMessenger
+Wed May 11 13:46:35 UTC 2016|Plugggable Connector|Connector class com.spartan.logger.core.LogMessenger Initialized... @ Log Level = 3
+Wed May 11 13:46:35 UTC 2016|Log Manager|Starting the Default Connector [com.spartan.logger.core.LogMessenger@3e2cc207] ....
+Wed May 11 13:46:35 UTC 2016|Scheduler|Starting the Scheduler ......
+Wed May 11 13:46:35 UTC 2016|Scheduler|Adding [LMID=[4e49276b-f4c9-4e28-aed3-c4eee11de73a]] Delay=5 Time Unit=MINUTES
+Wed May 11 13:46:35 UTC 2016|Scheduler|Adding [App Alarm Manager File=[ApplicationAlarms.xml]] Delay=30 Time Unit=MINUTES
+Wed May 11 13:46:35 UTC 2016|Scheduler|Adding [FW Alarm Manager File=[ApplicationFrameworkAlarms.xml]] Delay=3 Time Unit=MINUTES
+Wed May 11 13:46:35 UTC 2016|Scheduler|Startup Completed..
+Wed May 11 13:46:35 UTC 2016|Log Manager|Initialization Process Complete ......
+Wed May 11 13:46:35 UTC 2016|Log Manager Factory|Log Manager READY! ID = 4e49276b-f4c9-4e28-aed3-c4eee11de73a
 Setting logged in user info for ADD
-[EL Fine]: sql: 2016-05-11 11:00:09.054--ClientSession(2048253245)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppMenus_M (menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-	bind => [CB72D006-7F46-47C2-82C8-E0A62288DA79, QoosgK61JgOGr5KUso0p0C3iHvoVsvsD3avDryFOpJbiS2TQeW, 2, true, 2, OzEdOgDCFQimB4z4sf9INkeZptNoxb4r6fJDvWRrlCH9zNDjmJ, RMYgHk6l68YzS3h3DV6O2pROQBUsSs3HYTogk32qXM8iKBZLeN, true, true, ujweF98hflD9fxCuYhpmtvI0lyiGDzGwT2DuvvwMu2dNomGxH6, BZZoClAx2eShTpxEou192JaKZVUaMm58TDtrTyfP5AGkj34A1T, JEsEWgbaj0q5U2jS4I1I3tEVil5i8yOLpYnjWtvLHhh73YymC7, zbrWoci0utQt8BiRPd5A3MyBvQFntLfXww3uaF9oBkhGjHnrzO, dnK, 1, AAAAA, 2016-05-11 11:00:09.049, AAAAA, 2016-05-11 11:00:09.049, 1, 51000]
-[EL Fine]: sql: 2016-05-11 11:00:09.096--ClientSession(1476775574)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE ((activeStatus = ?) AND (menuId = ?))
-	bind => [1, CB72D006-7F46-47C2-82C8-E0A62288DA79]
+[EL Fine]: sql: 2016-05-11 13:46:35.659--ClientSession(887160330)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--INSERT INTO ast_AppMenus_M (menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+	bind => [72B6D20C-4390-4247-9D78-0C7417551707, QoosgK61JgOGr5KUso0p0C3iHvoVsvsD3avDryFOpJbiS2TQeW, 2, true, 2, OzEdOgDCFQimB4z4sf9INkeZptNoxb4r6fJDvWRrlCH9zNDjmJ, RMYgHk6l68YzS3h3DV6O2pROQBUsSs3HYTogk32qXM8iKBZLeN, true, true, ujweF98hflD9fxCuYhpmtvI0lyiGDzGwT2DuvvwMu2dNomGxH6, BZZoClAx2eShTpxEou192JaKZVUaMm58TDtrTyfP5AGkj34A1T, JEsEWgbaj0q5U2jS4I1I3tEVil5i8yOLpYnjWtvLHhh73YymC7, zbrWoci0utQt8BiRPd5A3MyBvQFntLfXww3uaF9oBkhGjHnrzO, dnK, 1, AAAAA, 2016-05-11 13:46:35.654, AAAAA, 2016-05-11 13:46:35.654, 1, 51000]
+[EL Fine]: sql: 2016-05-11 13:46:35.728--ClientSession(713228898)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE ((activeStatus = ?) AND (menuId = ?))
+	bind => [1, 72B6D20C-4390-4247-9D78-0C7417551707]
 Setting logged in user info for UPDATE
-[EL Fine]: sql: 2016-05-11 11:00:09.105--ClientSession(1020603460)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE (menuId = ?)
-	bind => [CB72D006-7F46-47C2-82C8-E0A62288DA79]
-[EL Fine]: sql: 2016-05-11 11:00:09.107--ClientSession(1020603460)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--UPDATE ast_AppMenus_M SET appId = ?, menuAccessRights = ?, menuAction = ?, menuCommands = ?, menuIcon = ?, menuLabel = ?, menuTreeId = ?, RefObjectId = ?, uiType = ?, versionId = ? WHERE ((menuId = ?) AND (versionId = ?))
-	bind => [TbPIQsEnm2sjaGYlPiTMbD2T0nqS3iP7s7upa2XJjxNhhUypU8, 4, McsRozmHYB2ne4ZCTt66hcU5gCJP2geLaRjEi0p6dTocN4EuEp, pcvCYWvqSzonVZLwMJdjjT653brXsmey2dou6lcM9CBN2WFzPE, hK8z28Y1gKVsTgnX66lWgYwsEJnm2pBrhK6emzNbOpAe6eYYom, qyFeyn4zCCY0IYHH6zLHNzJr37NFID9Fg3Ai3a3Wzmpww5ZAFU, vnHX4I9YrZum38ajyrlfZJFAyaKQF7aNCs66rawkIzrLYwoGe3, 5jvhFVaYxrB37gPgcf00Mxr5Fn0FtCW5R25DVKCuFfzysHql4F, YVu, 2, CB72D006-7F46-47C2-82C8-E0A62288DA79, 1]
-[EL Fine]: sql: 2016-05-11 11:00:09.196--ClientSession(2061340206)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE ((activeStatus = ?) AND (menuId = ?))
-	bind => [1, CB72D006-7F46-47C2-82C8-E0A62288DA79]
-[EL Fine]: sql: 2016-05-11 11:00:09.291--ClientSession(1263722417)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE (menuId = ?)
-	bind => [CB72D006-7F46-47C2-82C8-E0A62288DA79]
-[EL Fine]: sql: 2016-05-11 11:00:09.293--ClientSession(1263722417)--Connection(2037357294)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppMenus_M WHERE ((menuId = ?) AND (versionId = ?))
-	bind => [CB72D006-7F46-47C2-82C8-E0A62288DA79, 2]
+[EL Fine]: sql: 2016-05-11 13:46:35.734--ClientSession(1730480652)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE (menuId = ?)
+	bind => [72B6D20C-4390-4247-9D78-0C7417551707]
+[EL Fine]: sql: 2016-05-11 13:46:35.735--ClientSession(1730480652)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--UPDATE ast_AppMenus_M SET appId = ?, menuAccessRights = ?, menuAction = ?, menuCommands = ?, menuIcon = ?, menuLabel = ?, menuTreeId = ?, RefObjectId = ?, uiType = ?, versionId = ? WHERE ((menuId = ?) AND (versionId = ?))
+	bind => [TbPIQsEnm2sjaGYlPiTMbD2T0nqS3iP7s7upa2XJjxNhhUypU8, 4, McsRozmHYB2ne4ZCTt66hcU5gCJP2geLaRjEi0p6dTocN4EuEp, pcvCYWvqSzonVZLwMJdjjT653brXsmey2dou6lcM9CBN2WFzPE, hK8z28Y1gKVsTgnX66lWgYwsEJnm2pBrhK6emzNbOpAe6eYYom, qyFeyn4zCCY0IYHH6zLHNzJr37NFID9Fg3Ai3a3Wzmpww5ZAFU, vnHX4I9YrZum38ajyrlfZJFAyaKQF7aNCs66rawkIzrLYwoGe3, 5jvhFVaYxrB37gPgcf00Mxr5Fn0FtCW5R25DVKCuFfzysHql4F, YVu, 2, 72B6D20C-4390-4247-9D78-0C7417551707, 1]
+[EL Fine]: sql: 2016-05-11 13:46:35.822--ClientSession(109025641)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE ((activeStatus = ?) AND (menuId = ?))
+	bind => [1, 72B6D20C-4390-4247-9D78-0C7417551707]
+[EL Fine]: sql: 2016-05-11 13:46:35.901--ClientSession(151486053)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--SELECT menuId, appId, appType, autoSave, menuAccessRights, menuAction, menuCommands, menuDisplay, menuHead, menuIcon, menuLabel, menuTreeId, RefObjectId, uiType, versionId, createdBy, createdDate, updatedBy, updatedDate, activeStatus, txnAccessCode FROM ast_AppMenus_M WHERE (menuId = ?)
+	bind => [72B6D20C-4390-4247-9D78-0C7417551707]
+[EL Fine]: sql: 2016-05-11 13:46:35.903--ClientSession(151486053)--Connection(1365955031)--Thread(Thread[Test worker,5,main])--DELETE FROM ast_AppMenus_M WHERE ((menuId = ?) AND (versionId = ?))
+	bind => [72B6D20C-4390-4247-9D78-0C7417551707, 2]
 ]]></system-out>
   <system-err><![CDATA[com.app.shared.appbasicsetup.userrolemanagement.AppMenus.menuTreeId may not be null
 com.spartan.pluggable.exception.security.InvalidDataException: 90007:Invalid Exception.:Reason = Not Available!
